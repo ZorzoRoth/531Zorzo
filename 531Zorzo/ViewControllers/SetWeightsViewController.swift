@@ -30,6 +30,14 @@ class SetWeightsViewController: UIViewController {
         UserDefaults.standard.set(benchpressOneRepMaxInput.text, forKey: "BenchpressOneRepMaxSaved")
         UserDefaults.standard.set(overheadpressOneRepMaxInput.text, forKey: "OverheadpressOneRepMaxSaved")
         
+        let squatWeight = Squat(squatMax: squatOneRepMax!)
+        let deadliftWeight = Deadlift(deadliftMax: deadliftOneRepMax!)
+        let benchpressWeight = Benchpress(benchpressMax: benchpressOneRepMax!)
+        let overheadpressWeight = Overheadpress(overheadpressMax: overheadpressOneRepMax!)
+        
+        
+        
+        
     }
     
     
@@ -47,6 +55,7 @@ class SetWeightsViewController: UIViewController {
         if let squatOneRepMaxDisplayed = savedSquatOneRepMax as? String {
             squatOneRepMaxInput.text = squatOneRepMaxDisplayed
         }
+        
         
         
         

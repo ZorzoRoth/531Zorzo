@@ -14,6 +14,29 @@
 		D02EEB9A22B505A0008F6C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02EEB9822B505A0008F6C11 /* LaunchScreen.storyboard */; };
 		D02EEBA222B5083C008F6C11 /* DeadliftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */; };
 		D02EEBA622B51684008F6C11 /* SetWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */; };
+		D04A1E9722B5470400BEBC5C /* WeekOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1E9622B5470400BEBC5C /* WeekOneViewController.swift */; };
+		D04A1E9A22B547A700BEBC5C /* WeekTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1E9922B547A700BEBC5C /* WeekTwoViewController.swift */; };
+		D04A1E9D22B547C400BEBC5C /* WeekThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1E9C22B547C400BEBC5C /* WeekThreeViewController.swift */; };
+		D04A1E9F22B547D500BEBC5C /* WeekFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1E9E22B547D500BEBC5C /* WeekFourViewController.swift */; };
+		D04A1EA422B56C9400BEBC5C /* WeekOneDeadliftDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EA322B56C9400BEBC5C /* WeekOneDeadliftDayViewController.swift */; };
+		D04A1EA622B56CB500BEBC5C /* WeekOneSquatDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EA522B56CB500BEBC5C /* WeekOneSquatDayViewController.swift */; };
+		D04A1EA822B56CC700BEBC5C /* WeekOneBenchDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EA722B56CC700BEBC5C /* WeekOneBenchDayViewController.swift */; };
+		D04A1EAA22B56CD800BEBC5C /* WeekOneOPDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EA922B56CD800BEBC5C /* WeekOneOPDayViewController.swift */; };
+		D04A1EAD22B56D0C00BEBC5C /* WeekTwoSquatDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EAC22B56D0C00BEBC5C /* WeekTwoSquatDayViewController.swift */; };
+		D04A1EAF22B56D1B00BEBC5C /* WeekTwoDeadliftDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EAE22B56D1B00BEBC5C /* WeekTwoDeadliftDayViewController.swift */; };
+		D04A1EB122B56D3200BEBC5C /* WeekTwoBenchDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EB022B56D3200BEBC5C /* WeekTwoBenchDayViewController.swift */; };
+		D04A1EB322B56D4900BEBC5C /* WeekTwoOPDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EB222B56D4900BEBC5C /* WeekTwoOPDayViewController.swift */; };
+		D04A1EB622B56D6F00BEBC5C /* WeekThreeSquatDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EB522B56D6F00BEBC5C /* WeekThreeSquatDayViewController.swift */; };
+		D04A1EB822B56D7F00BEBC5C /* WeekThreeDeadliftDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EB722B56D7F00BEBC5C /* WeekThreeDeadliftDayViewController.swift */; };
+		D04A1EBA22B56D9000BEBC5C /* WeekThreeBenchDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EB922B56D9000BEBC5C /* WeekThreeBenchDayViewController.swift */; };
+		D04A1EBC22B56D9F00BEBC5C /* WeekThreeOPDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EBB22B56D9F00BEBC5C /* WeekThreeOPDayViewController.swift */; };
+		D04A1EBF22B56DC100BEBC5C /* WeekFourSquatDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EBE22B56DC100BEBC5C /* WeekFourSquatDayViewController.swift */; };
+		D04A1EC122B56DDE00BEBC5C /* WeekFourDeadliftDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EC022B56DDE00BEBC5C /* WeekFourDeadliftDayViewController.swift */; };
+		D04A1EC322B56DED00BEBC5C /* WeekFourBenchDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EC222B56DED00BEBC5C /* WeekFourBenchDayViewController.swift */; };
+		D04A1EC522B56DFD00BEBC5C /* WeekFourOPDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EC422B56DFD00BEBC5C /* WeekFourOPDayViewController.swift */; };
+		D04A1EC722B5791A00BEBC5C /* SquatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EC622B5791A00BEBC5C /* SquatModel.swift */; };
+		D04A1EC922B5797B00BEBC5C /* BenchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1EC822B5797B00BEBC5C /* BenchModel.swift */; };
+		D04A1ECE22B579CF00BEBC5C /* OverheadpressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1ECD22B579CF00BEBC5C /* OverheadpressModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +49,29 @@
 		D02EEB9B22B505A0008F6C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadliftModel.swift; sourceTree = "<group>"; };
 		D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeightsViewController.swift; sourceTree = "<group>"; };
+		D04A1E9622B5470400BEBC5C /* WeekOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneViewController.swift; sourceTree = "<group>"; };
+		D04A1E9922B547A700BEBC5C /* WeekTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoViewController.swift; sourceTree = "<group>"; };
+		D04A1E9C22B547C400BEBC5C /* WeekThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekThreeViewController.swift; sourceTree = "<group>"; };
+		D04A1E9E22B547D500BEBC5C /* WeekFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFourViewController.swift; sourceTree = "<group>"; };
+		D04A1EA322B56C9400BEBC5C /* WeekOneDeadliftDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneDeadliftDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EA522B56CB500BEBC5C /* WeekOneSquatDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneSquatDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EA722B56CC700BEBC5C /* WeekOneBenchDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneBenchDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EA922B56CD800BEBC5C /* WeekOneOPDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneOPDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EAC22B56D0C00BEBC5C /* WeekTwoSquatDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoSquatDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EAE22B56D1B00BEBC5C /* WeekTwoDeadliftDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoDeadliftDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EB022B56D3200BEBC5C /* WeekTwoBenchDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoBenchDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EB222B56D4900BEBC5C /* WeekTwoOPDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTwoOPDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EB522B56D6F00BEBC5C /* WeekThreeSquatDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekThreeSquatDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EB722B56D7F00BEBC5C /* WeekThreeDeadliftDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekThreeDeadliftDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EB922B56D9000BEBC5C /* WeekThreeBenchDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekThreeBenchDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EBB22B56D9F00BEBC5C /* WeekThreeOPDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekThreeOPDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EBE22B56DC100BEBC5C /* WeekFourSquatDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFourSquatDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EC022B56DDE00BEBC5C /* WeekFourDeadliftDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFourDeadliftDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EC222B56DED00BEBC5C /* WeekFourBenchDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFourBenchDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EC422B56DFD00BEBC5C /* WeekFourOPDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFourOPDayViewController.swift; sourceTree = "<group>"; };
+		D04A1EC622B5791A00BEBC5C /* SquatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatModel.swift; sourceTree = "<group>"; };
+		D04A1EC822B5797B00BEBC5C /* BenchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchModel.swift; sourceTree = "<group>"; };
+		D04A1ECD22B579CF00BEBC5C /* OverheadpressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadpressModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +104,79 @@
 		D02EEB8E22B5059F008F6C11 /* 531Zorzo */ = {
 			isa = PBXGroup;
 			children = (
+				D04A1EA022B56B9E00BEBC5C /* ViewControllers */,
 				D02EEB8F22B5059F008F6C11 /* AppDelegate.swift */,
-				D02EEB9122B5059F008F6C11 /* ViewController.swift */,
-				D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */,
 				D02EEB9322B5059F008F6C11 /* Main.storyboard */,
 				D02EEB9622B505A0008F6C11 /* Assets.xcassets */,
 				D02EEB9822B505A0008F6C11 /* LaunchScreen.storyboard */,
 				D02EEB9B22B505A0008F6C11 /* Info.plist */,
+				D04A1EC622B5791A00BEBC5C /* SquatModel.swift */,
 				D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */,
+				D04A1EC822B5797B00BEBC5C /* BenchModel.swift */,
+				D04A1ECD22B579CF00BEBC5C /* OverheadpressModel.swift */,
 			);
 			path = 531Zorzo;
+			sourceTree = "<group>";
+		};
+		D04A1EA022B56B9E00BEBC5C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D02EEB9122B5059F008F6C11 /* ViewController.swift */,
+				D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */,
+				D04A1EA122B56BDA00BEBC5C /* WeekOneViewControllers */,
+				D04A1EAB22B56CE700BEBC5C /* WeekTwoViewControllers */,
+				D04A1EB422B56D4E00BEBC5C /* WeekThreeViewControllers */,
+				D04A1EBD22B56DA500BEBC5C /* WeekFourViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D04A1EA122B56BDA00BEBC5C /* WeekOneViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D04A1E9622B5470400BEBC5C /* WeekOneViewController.swift */,
+				D04A1EA522B56CB500BEBC5C /* WeekOneSquatDayViewController.swift */,
+				D04A1EA322B56C9400BEBC5C /* WeekOneDeadliftDayViewController.swift */,
+				D04A1EA722B56CC700BEBC5C /* WeekOneBenchDayViewController.swift */,
+				D04A1EA922B56CD800BEBC5C /* WeekOneOPDayViewController.swift */,
+			);
+			path = WeekOneViewControllers;
+			sourceTree = "<group>";
+		};
+		D04A1EAB22B56CE700BEBC5C /* WeekTwoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D04A1E9922B547A700BEBC5C /* WeekTwoViewController.swift */,
+				D04A1EAC22B56D0C00BEBC5C /* WeekTwoSquatDayViewController.swift */,
+				D04A1EAE22B56D1B00BEBC5C /* WeekTwoDeadliftDayViewController.swift */,
+				D04A1EB022B56D3200BEBC5C /* WeekTwoBenchDayViewController.swift */,
+				D04A1EB222B56D4900BEBC5C /* WeekTwoOPDayViewController.swift */,
+			);
+			path = WeekTwoViewControllers;
+			sourceTree = "<group>";
+		};
+		D04A1EB422B56D4E00BEBC5C /* WeekThreeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D04A1E9C22B547C400BEBC5C /* WeekThreeViewController.swift */,
+				D04A1EB522B56D6F00BEBC5C /* WeekThreeSquatDayViewController.swift */,
+				D04A1EB722B56D7F00BEBC5C /* WeekThreeDeadliftDayViewController.swift */,
+				D04A1EB922B56D9000BEBC5C /* WeekThreeBenchDayViewController.swift */,
+				D04A1EBB22B56D9F00BEBC5C /* WeekThreeOPDayViewController.swift */,
+			);
+			path = WeekThreeViewControllers;
+			sourceTree = "<group>";
+		};
+		D04A1EBD22B56DA500BEBC5C /* WeekFourViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D04A1E9E22B547D500BEBC5C /* WeekFourViewController.swift */,
+				D04A1EBE22B56DC100BEBC5C /* WeekFourSquatDayViewController.swift */,
+				D04A1EC022B56DDE00BEBC5C /* WeekFourDeadliftDayViewController.swift */,
+				D04A1EC222B56DED00BEBC5C /* WeekFourBenchDayViewController.swift */,
+				D04A1EC422B56DFD00BEBC5C /* WeekFourOPDayViewController.swift */,
+			);
+			path = WeekFourViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +250,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04A1EA422B56C9400BEBC5C /* WeekOneDeadliftDayViewController.swift in Sources */,
+				D04A1E9722B5470400BEBC5C /* WeekOneViewController.swift in Sources */,
 				D02EEB9222B5059F008F6C11 /* ViewController.swift in Sources */,
 				D02EEB9022B5059F008F6C11 /* AppDelegate.swift in Sources */,
+				D04A1EB122B56D3200BEBC5C /* WeekTwoBenchDayViewController.swift in Sources */,
 				D02EEBA222B5083C008F6C11 /* DeadliftModel.swift in Sources */,
+				D04A1EA622B56CB500BEBC5C /* WeekOneSquatDayViewController.swift in Sources */,
+				D04A1EB822B56D7F00BEBC5C /* WeekThreeDeadliftDayViewController.swift in Sources */,
+				D04A1EBF22B56DC100BEBC5C /* WeekFourSquatDayViewController.swift in Sources */,
+				D04A1EC322B56DED00BEBC5C /* WeekFourBenchDayViewController.swift in Sources */,
 				D02EEBA622B51684008F6C11 /* SetWeightsViewController.swift in Sources */,
+				D04A1EB622B56D6F00BEBC5C /* WeekThreeSquatDayViewController.swift in Sources */,
+				D04A1EA822B56CC700BEBC5C /* WeekOneBenchDayViewController.swift in Sources */,
+				D04A1E9A22B547A700BEBC5C /* WeekTwoViewController.swift in Sources */,
+				D04A1ECE22B579CF00BEBC5C /* OverheadpressModel.swift in Sources */,
+				D04A1EB322B56D4900BEBC5C /* WeekTwoOPDayViewController.swift in Sources */,
+				D04A1EC122B56DDE00BEBC5C /* WeekFourDeadliftDayViewController.swift in Sources */,
+				D04A1EC522B56DFD00BEBC5C /* WeekFourOPDayViewController.swift in Sources */,
+				D04A1EAD22B56D0C00BEBC5C /* WeekTwoSquatDayViewController.swift in Sources */,
+				D04A1E9F22B547D500BEBC5C /* WeekFourViewController.swift in Sources */,
+				D04A1EAF22B56D1B00BEBC5C /* WeekTwoDeadliftDayViewController.swift in Sources */,
+				D04A1EC922B5797B00BEBC5C /* BenchModel.swift in Sources */,
+				D04A1EAA22B56CD800BEBC5C /* WeekOneOPDayViewController.swift in Sources */,
+				D04A1EBC22B56D9F00BEBC5C /* WeekThreeOPDayViewController.swift in Sources */,
+				D04A1EBA22B56D9000BEBC5C /* WeekThreeBenchDayViewController.swift in Sources */,
+				D04A1E9D22B547C400BEBC5C /* WeekThreeViewController.swift in Sources */,
+				D04A1EC722B5791A00BEBC5C /* SquatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
