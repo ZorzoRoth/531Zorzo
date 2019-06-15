@@ -38,7 +38,10 @@ class SetWeightsViewController: UIViewController {
 
         // displaying the saved data
         
+        navigationController?.interactivePopGestureRecognizer?.delegate = nil
+        
         print(UserDefaults.standard.dictionaryRepresentation())
+        
         
         let savedSquatOneRepMax = UserDefaults.standard.object(forKey: "SquatOneRepMaxSaved")
         if let squatOneRepMaxDisplayed = savedSquatOneRepMax as? String {
@@ -65,12 +68,19 @@ class SetWeightsViewController: UIViewController {
         }
         
         
+
         
         
         
         
         
         
+    }
+    
+    // dismisses the number pad when tapped outside of it's field
+    override func touchesBegan(_ touches: Set<UITouch>,
+                               with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     
