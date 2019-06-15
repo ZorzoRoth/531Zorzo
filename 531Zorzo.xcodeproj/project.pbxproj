@@ -12,6 +12,8 @@
 		D02EEB9522B5059F008F6C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02EEB9322B5059F008F6C11 /* Main.storyboard */; };
 		D02EEB9722B505A0008F6C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02EEB9622B505A0008F6C11 /* Assets.xcassets */; };
 		D02EEB9A22B505A0008F6C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02EEB9822B505A0008F6C11 /* LaunchScreen.storyboard */; };
+		D02EEBA222B5083C008F6C11 /* DeadliftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */; };
+		D02EEBA622B51684008F6C11 /* SetWeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D02EEB9622B505A0008F6C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02EEB9922B505A0008F6C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02EEB9B22B505A0008F6C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadliftModel.swift; sourceTree = "<group>"; };
+		D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWeightsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				D02EEB8F22B5059F008F6C11 /* AppDelegate.swift */,
 				D02EEB9122B5059F008F6C11 /* ViewController.swift */,
+				D02EEBA522B51684008F6C11 /* SetWeightsViewController.swift */,
 				D02EEB9322B5059F008F6C11 /* Main.storyboard */,
 				D02EEB9622B505A0008F6C11 /* Assets.xcassets */,
 				D02EEB9822B505A0008F6C11 /* LaunchScreen.storyboard */,
 				D02EEB9B22B505A0008F6C11 /* Info.plist */,
+				D02EEBA122B5083C008F6C11 /* DeadliftModel.swift */,
 			);
 			path = 531Zorzo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				D02EEB9222B5059F008F6C11 /* ViewController.swift in Sources */,
 				D02EEB9022B5059F008F6C11 /* AppDelegate.swift in Sources */,
+				D02EEBA222B5083C008F6C11 /* DeadliftModel.swift in Sources */,
+				D02EEBA622B51684008F6C11 /* SetWeightsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
